@@ -26,12 +26,12 @@ class _HomeState extends State<Home> {
 
       if(precoAlcool >= 0.7){
         setState(() {
-          _textoResultado = "Melhor abastercer com gasolina";
+          _textoResultado = "Melhor abastecer com gasolina";
         });
       }
       else{
         setState(() {
-          _textoResultado = "Melhor abastercer com álcool";
+          _textoResultado = "Melhor abastecer com álcool";
         });
       }
       _limparCampos();
